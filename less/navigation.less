@@ -1,1 +1,39 @@
 // Navigation Styles here
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+
+    a {
+        text-decoration: none;
+        color: #000;
+        font-size: 1.5rem;
+        margin-right: 20px;
+    }
+
+    @media @mobile {
+        display: none;
+    }
+}
+
+.hidden-nav {
+    display: none;
+
+    @media @mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+
+        a {
+            text-decoration: none;
+            color: #000;
+            font-size: 1.5rem;
+            margin-right: 20px;
+        }
+    }
+}
