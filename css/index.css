@@ -323,8 +323,8 @@ h1 {
 @media (max-width: 500px) {
   .home .content-pick {
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
   }
 }
 .home .content-pick .destination {
